@@ -584,6 +584,11 @@ display: block;
 }
 }
 @media(max-width:768px){
+.hero-image img {
+ width: 350px;
+}
+}
+@media(max-width:768px){
 .hero-content p{
   text-align: center;
 }
