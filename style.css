@@ -11,8 +11,8 @@ html,body{
 * {
   box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
-  word-wrap: break-word;
-overflow-wrap: break-word;
+  /*word-wrap: break-word;
+overflow-wrap: break-word;*/
 }
 a{
   text-decoration: none;
