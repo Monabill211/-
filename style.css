@@ -660,7 +660,7 @@ position: absolute;
 top: 70px;
 right: 0;
 background: #fff;
-/* width: 120%; */
+width: 40%; 
 gap: 10px;
 padding: 20px 0;
 display: none;
