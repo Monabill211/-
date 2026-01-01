@@ -427,7 +427,7 @@ body {
 }
 
 .reviews-wrapper {
-  width: 380px;
+  width: 350px;
 }
 
 .review-card {
@@ -435,6 +435,8 @@ body {
   padding: 30px;
   border-radius: 18px;
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 .review-stars {
