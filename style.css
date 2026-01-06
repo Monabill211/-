@@ -123,6 +123,8 @@ body {
   font-size: 36px;
   color: var(--text);
   margin-bottom: 20px;
+      text-align: center;
+
 }
 
 .hero-content p {
@@ -231,6 +233,7 @@ body {
   font-size: 32px;
   color: var(--text);
   margin-bottom: 20px;
+      text-align: end;
 }
 
 .about-content p {
@@ -238,12 +241,14 @@ body {
   opacity: .85;
   line-height: 1.9;
   margin-bottom: 15px;
+      text-align: end;
 }
 
 .about-link {
   color: var(--dark);
   text-decoration: none;
   font-weight: 600;
+      text-align: end;
 }
 /* Packages */
 .packages-section {
@@ -338,7 +343,7 @@ body {
 .booking-section {
   background: var(--bg);
   padding: 70px 50px;
-      width: 50%;
+      /* width: 50%; */
     margin: auto;
 }
 
@@ -353,6 +358,8 @@ body {
 /* Info */
 .booking-info {
   /* max-width: 420px; */
+      text-align: end;
+
 }
 
 .booking-info h2 {
@@ -364,8 +371,8 @@ body {
 .booking-info p {
   color: var(--text);
   opacity: .85;
-  line-height: 1.8;
-  margin-bottom: 25px;
+  /* line-height: 1.8; */
+  /* margin-bottom: 25px; */
 }
 
 .booking-features {
@@ -686,4 +693,59 @@ padding: 8px;
   flex-direction: column;
 align-items: center;
   display: flex;
+}
+
+.booking-h{
+  margin: 0
+  ;
+}
+.booking-p{
+  margin: 0;
+    margin-bottom: 13px;
+}
+.ff{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+direction: rtl;
+}
+
+.iconff {
+  width: 56px;
+  height: 56px;
+  background: #e8f1f1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.iconff i {
+  font-size: 22px;
+  color: #6cd3d3;
+
+}
+.conff h3 {
+  text-align: justify;
+}
+.fe{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media(max-width:768px){
+.conff h3 {
+  text-align: center;
+
+
+}
+}
+@media(max-width:768px){
+.booking-section {
+width: 50%;
+
+}
 }
