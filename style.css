@@ -349,7 +349,7 @@ color: white!important;
 .featured-badge {
   position: absolute;
   top: -12px;
-  right: 20px;
+right: 115px;
   background: var(--main);
   color: #fff;
   font-size: 12px;
