@@ -311,6 +311,8 @@ body {
   background: #fff;
   border-radius: 18px;
   position: relative;
+    padding: 30px 25px;
+
   height: 400px;
     width: 310px;
 }
